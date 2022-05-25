@@ -1,0 +1,42 @@
+td{
+    height: 90px;
+    width: 90px;
+}
+
+
+#anima-div{
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    animation: mov-div  15s infinite;
+}
+
+@keyframes mov-div{
+    0%{top:0px; left:0px;}
+    4%{top: 94px; left:0px;}
+    8%{top: 194px; left:0px;}
+    12%{top: 194px; left:130px;}
+    16%{top: 194px; left:250px;}
+    20%{top: 194px; left:380px;}
+    24%{top: 284px; left:380px;}
+    28%{top: 390px; left:380px;}
+    32%{top: 479px; left:380px;}
+    36%{top: 479px; left:500px;}
+    40%{top: 574px; left:500px;}
+    44%{top: 674px; left:500px;}
+    48%{top: 674px; left:630px;}
+    54%{top: 674px; left:630px;}
+    58%{top: 674px; left:500px;}
+    62%{top: 574px; left:500px;}
+    66%{top: 479px; left:500px;}
+    70%{top: 479px; left:380px;}
+    74%{top: 384px; left:380px;}
+    78%{top: 284px; left:380px;}
+    82%{top: 194px; left:380px;}
+    86%{top: 194px; left:250px;}
+    90%{top: 194px; left:130px;}
+    94%{top: 194px; left:0px;}
+    97%{top: 94px; left:0px;}
+    100%{top:0px; left:0px;}
+}
